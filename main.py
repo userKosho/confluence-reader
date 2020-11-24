@@ -106,8 +106,8 @@ async def post_installed(user_account_id, item: Item):
 @app.get("/confluence")
 async def confluence():
 
-    token = atlassian_jwt.encode_token('GET', '/rest/api/content?spaceKey=DEV&title=Acronyms&expand=body.storage', clientKey='thisiskoshounqiuekeyaaakkkkkkaaaaaaaaaaa1',
-                                       sharedSecret='//APdD1Wy5iA3rL2c69Xa7S3cDM/o1yUQ8PtWyWJ6saXPjuTFgl/ojeilXPVJ1FX1NjNSn3ovZd/x/nqEAUpAg')
+    token = atlassian_jwt.encode_token('GET', '/rest/api/content?spaceKey=DEV&title=Acronyms&expand=body.storage', clientKey='',
+                                       sharedSecret='')
     headers = {'Authorization': 'JWT {}'.format(token)}
     url = 'https://devkosho.atlassian.net/wiki/rest/api/content?spaceKey=DEV&title=Acronyms&expand=body.storage'
 
