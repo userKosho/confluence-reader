@@ -1,0 +1,4 @@
+fastapi[all]
+atlassian-jwt
+bs4
+lxml

@@ -1,0 +1,27 @@
+{
+    "modules": {},
+    "key": "thisiskoshounqiuekeyaaakkkkkkaaa",
+    "name": "My Connect Apaaap",
+    "description": "Aaaa connect app that does something",
+    "vendor": {
+      "name": "My Company",
+      "url": "https://34a25e15655f.ngrok.io"
+    },
+    "links": {
+      "self": "https://34a25e15655f.ngrok.io/atlassian-connect.json"
+    },
+    "lifecycle": {
+      "installed": "/installed",
+      "uninstalled": "/uninstalled"
+    },
+    "baseUrl": "https://34a25e15655f.ngrok.io",
+    "authentication": {
+      "type": "jwt"
+    },
+    "enableLicensing": false,
+    "scopes": [
+      "read",
+      "write",
+      "ADMIN"
+    ] 
+  }
